@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    margin: 0;
+}
+
+#app-box {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 3px 8px 10px #ffffff1c;
+    min-width: 400px;
+    max-height: 400px;
+}
+
+#output {
+    padding: 8px;
+    padding-left: 16px;
+    width: 300px;
+    border-radius: 8px;
+    font-family: "Cascatia Mono", monospace;
+    border: 1px solid #333333;
+    color: black;
+    min-height: 30px;
+    font-size: 16px;
+}
+
+#charsNumber {
+    width: 100%;
+}
+
+.checkbox {
+    height: 16px;
+    width: 16px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+#rangeLabel {
+    margin-top: 24px;
+}
+
+p {
+    margin-top: 8px;
+}
+
+h1 {
+    margin: 16px;
+}
+
+button {
+    transition: 0.2s;
+    padding: 8px 24px;
+    width: 100%;
+    margin-top: 16px;
+    background-color: #417ff3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3469cc;
+}
+
+#btnCopy {  
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+  width: 55px;
+  margin: 0;
+}
+
+#divPasswordOutput {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
