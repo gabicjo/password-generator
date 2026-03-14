@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="app-box">
+        <h1>Gerador de senhas</h1>
+
+        <div id="divPasswordOutput"><input type="text" name="output" id="output" readonly> <button type="button" id="btnCopy"><span class="material-icons">content_paste</span></button></div>
+
+        <label for="charsNunber" id='rangeLabel'>Numero de Caracteres</label>
+        <input type="range" name="charsNumber" id="charsNumber" min="8" max="52">
+
+        <div id="passwordConfig">
+            <p>Configurações da senha</p>
+
+            <label>
+                <input type="checkbox" name="incluideNumbers" id="incluideNumbers" class="checkbox"> Incluir numeros
+            </label>
+            <label>
+                <input type="checkbox" name="incluideSymbols" id="incluideSymbols" class="checkbox"> Incluir simbolos
+            </label>
+        </div>
+
+        <button type="button" id="gerarSenha">Gerar Senha</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
